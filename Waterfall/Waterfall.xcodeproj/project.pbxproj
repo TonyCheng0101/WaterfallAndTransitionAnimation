@@ -18,6 +18,7 @@
 		EA358D051E86E6BC005DA141 /* PuBuLiuLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA358CFF1E86E6BC005DA141 /* PuBuLiuLayout.m */; };
 		EA358D061E86E6BC005DA141 /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA358D011E86E6BC005DA141 /* ToViewController.m */; };
 		EA358D071E86E6BC005DA141 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA358D031E86E6BC005DA141 /* ViewController.m */; };
+		EA358D091E86EDD1005DA141 /* waterfall.png in Resources */ = {isa = PBXBuildFile; fileRef = EA358D081E86EDD1005DA141 /* waterfall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		EA358D011E86E6BC005DA141 /* ToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToViewController.m; sourceTree = "<group>"; };
 		EA358D021E86E6BC005DA141 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EA358D031E86E6BC005DA141 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA358D081E86EDD1005DA141 /* waterfall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waterfall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		EA358CC91E86E598005DA141 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA358D081E86EDD1005DA141 /* waterfall.png */,
 				EA358CCA1E86E598005DA141 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -264,6 +267,7 @@
 				EA358CD91E86E598005DA141 /* LaunchScreen.storyboard in Resources */,
 				EA358CD61E86E598005DA141 /* Assets.xcassets in Resources */,
 				EA358CD41E86E598005DA141 /* Main.storyboard in Resources */,
+				EA358D091E86EDD1005DA141 /* waterfall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +529,7 @@
 				EA358CF51E86E599005DA141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA358CF61E86E599005DA141 /* Build configuration list for PBXNativeTarget "WaterfallTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +538,7 @@
 				EA358CF81E86E599005DA141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA358CF91E86E599005DA141 /* Build configuration list for PBXNativeTarget "WaterfallUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +547,7 @@
 				EA358CFB1E86E599005DA141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
